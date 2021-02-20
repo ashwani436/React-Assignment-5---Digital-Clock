@@ -13,9 +13,9 @@ class App extends Component {
         }, 1 * 1000); // every 1 seconds
     }
 
-    componentWillUnmount() { // delete the interval just before component is removed
-        clearInterval(this.update);
-    }
+ //   componentWillUnmount() { // delete the interval just before component is removed
+   //     clearInterval(this.update);
+    //}
 
     render() {
         const { time } = this.state; // retrieve the time from state

@@ -20,10 +20,12 @@ class App extends Component {
     render() {
         const { time } = this.state; // retrieve the time from state
 
-        return (<div className="Clock">
-            <h3 id="time">
+        return (<div>
+            <h1>Digital Clock</h1>
+            <h2>
+                {/* print the string prettily */}
                 {time.toLocaleTimeString()}
-            </h3>
+            </h2>
         </div>);
     }
 }

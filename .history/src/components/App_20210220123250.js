@@ -21,7 +21,9 @@ class App extends Component {
         const { time } = this.state; // retrieve the time from state
 
         return (<div className="Clock">
-            <h3 id="time">
+            <h1 id="time">Digital Clock</h1>
+            <h3>
+                {/* print the string prettily */}
                 {time.toLocaleTimeString()}
             </h3>
         </div>);

@@ -22,6 +22,7 @@ class App extends Component {
 
         return (<div className="Clock">
             <h3 id="time">
+                {/* print the string prettily */}
                 {time.toLocaleTimeString()}
             </h3>
         </div>);
